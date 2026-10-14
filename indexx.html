@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+</head>
+
+<body>
+    <div class="card">
+        <h1>Welcome to My Website!</h1>
+        <p>This webpage is running using HTML and Docker.</p>
+        <p>My first Nginx website is working!</p>
+
+        <button onclick="showMessage()">Click Me</button>
+
+        <p id="message"></p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").textContent =
+                "Hello! Your website is working successfully!";
+        }
+    </script>
+</body>
+</html>
